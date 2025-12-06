@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+pydantic
+starlette
+
+pandas
+numpy
+scikit-learn
+joblib
+
+# If you want background tasks beyond FastAPI (optional)
+# celery
+# redis

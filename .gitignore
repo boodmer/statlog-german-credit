@@ -1,0 +1,66 @@
+# ------------------------------
+# Python
+# ------------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.pkl
+*.pickle
+*.joblib
+
+# Byte-compiled / optimized / DLL files
+*.so
+*.dll
+*.dylib
+
+# Virtual environment
+venv/
+env/
+.env/
+.venv/
+
+# Pip cache
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ------------------------------
+# FastAPI / Uvicorn
+# ------------------------------
+*.db
+*.sqlite
+*.sqlite3
+*.log
+logs/
+
+# OpenAPI generated files
+openapi.json
+
+# ------------------------------
+# Machine Learning Models
+# ------------------------------
+models/
+!models/.keep
+
+
+# ------------------------------
+# System Files
+# ------------------------------
+DS_Store
+Thumbs.db
+
+# ------------------------------
+# IDE
+# ------------------------------
+.vscode/
+.idea/
+*.iml
+
+# ------------------------------
+# OS Trash
+# ------------------------------
+*.swp
+*.tmp
+*.bak
+*.orig
